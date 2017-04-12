@@ -64,8 +64,15 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="MQa-5x-VKu">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="ZJY-Iq-izi"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="ZJY-Iq-izi">
+                            <connections>
+                                <action selector="addName:" destination="6h4-ff-dSx" id="YKn-BB-R6T"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="nameTextField" destination="XXh-YX-iPw" id="iFf-MR-K8X"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e0C-NX-J31" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

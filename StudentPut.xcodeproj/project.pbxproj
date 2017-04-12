@@ -13,6 +13,8 @@
 		3BE84E9B1E9E866600D15C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE84E991E9E866600D15C2A /* LaunchScreen.storyboard */; };
 		3BE84EA81E9E8D7400D15C2A /* StudentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE84EA71E9E8D7400D15C2A /* StudentTableViewController.swift */; };
 		3BE84EAB1E9E8E8500D15C2A /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE84EAA1E9E8E8500D15C2A /* Student.swift */; };
+		3BE84EAE1E9E91A400D15C2A /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE84EAD1E9E91A400D15C2A /* NetworkController.swift */; };
+		3BE84EB11E9E920600D15C2A /* StudentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE84EB01E9E920600D15C2A /* StudentController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3BE84E9C1E9E866600D15C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BE84EA71E9E8D7400D15C2A /* StudentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentTableViewController.swift; sourceTree = "<group>"; };
 		3BE84EAA1E9E8E8500D15C2A /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		3BE84EAD1E9E91A400D15C2A /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		3BE84EB01E9E920600D15C2A /* StudentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 		3BE84E8F1E9E866600D15C2A /* StudentPut */ = {
 			isa = PBXGroup;
 			children = (
+				3BE84EAC1E9E919900D15C2A /* Network */,
 				3BE84EA91E9E8E7500D15C2A /* Model */,
+				3BE84EAF1E9E91DD00D15C2A /* Model Controller */,
 				3BE84EA61E9E8C2300D15C2A /* View Controller */,
 				3BE84EA31E9E868000D15C2A /* View */,
 				3BE84EA21E9E867900D15C2A /* Resources */,
@@ -97,6 +103,22 @@
 				3BE84EAA1E9E8E8500D15C2A /* Student.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		3BE84EAC1E9E919900D15C2A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3BE84EAD1E9E91A400D15C2A /* NetworkController.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		3BE84EAF1E9E91DD00D15C2A /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3BE84EB01E9E920600D15C2A /* StudentController.swift */,
+			);
+			name = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +194,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BE84EB11E9E920600D15C2A /* StudentController.swift in Sources */,
+				3BE84EAE1E9E91A400D15C2A /* NetworkController.swift in Sources */,
 				3BE84EA81E9E8D7400D15C2A /* StudentTableViewController.swift in Sources */,
 				3BE84EAB1E9E8E8500D15C2A /* Student.swift in Sources */,
 				3BE84E911E9E866600D15C2A /* AppDelegate.swift in Sources */,
